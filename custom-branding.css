@@ -1,0 +1,138 @@
+
+/* Color override classes */
+.u-textColor--primary {
+    color: #3D0C11;
+}
+.u-textColor--secondary {
+    color: #4a4a4a;
+}
+.u-textColor--header {
+    color: #577981;
+}
+.u-textColor--bodyCopy {
+    color: #9c9c9c;
+}
+.u-textColor--error,
+a.u-textColor--error {
+    color: #8F1E2A;
+}
+.u-textColor--success {
+    color: #5B7553;
+}
+.u-textColor--warning {
+    color: #DAAB18;
+}
+.u-linkColor,
+.replicated-link,
+.card-link,
+.link,
+a:visited {
+    color: #9B6A6C;
+}
+.u-linkColor:hover,
+.replicated-link:hover,
+.card-link:hover,
+.link,
+a:visited {
+    color: #8D4D50;
+    text-decoration: none;
+}
+
+/* Button override classes */
+.btn.primary {
+    background-color: #5B7553;
+}
+.btn.primary:not(:disabled):hover {
+    background-color: #3E5935;
+}
+
+.btn.primary.red {
+    background-color: #8F1E2A;
+}
+.btn.primary.red:not(:disabled):hover {
+    background-color: #62151d;
+}
+
+.btn.secondary,
+.btn.secondary.blue {
+    background-color: #ffffff;
+    border-color: #5B7553;
+    color: #5B7553;
+}
+.btn.secondary:not(:disabled):hover,
+.btn.secondary.blue:not(:disabled):hover {
+    background-color: #ffffff;
+    border-color: #3E5935;
+    color: #3E5935;
+}
+
+.btn.secondary.red {
+    background-color: #ffffff;
+    border-color: #8F1E2A;
+    color: #8F1E2A;
+}
+.btn.secondary.red:not(:disabled):hover {
+    background-color: #ffffff;
+    border-color: #62151d;
+    color: #62151d;
+}
+
+.btn.secondary.dark {
+    background-color: #ffffff;
+    border-color: #3A4B35;
+    color: #3A4B35;
+}
+.btn.secondary.dark:not(:disabled):hover {
+    background-color: #ffffff;
+    border-color: #253022;
+    color: #253022;
+}
+
+/* Major element classes */
+
+.dashboard-card,
+.AirgapSettings--wrapper,
+.License--wrapper,
+.TableDiff--Wrapper:not(.classic) {
+    background-color: #FAF3DD;
+}
+
+.Loader path {
+    fill: #5B7553;
+}
+
+.progressbar-meter {
+    background-color: #9B6A6C;
+}
+.progressbar-meter.complete {
+    background-color: #5B7553;
+}
+
+/* Additional custom classes */
+
+.status-tag.success,
+.ResourceStateText.ready {
+    background-color: #C8D5B9;
+    color: #5B7553;
+}
+.status-tag.failed,
+.ResourceStateText.missing {
+    background-color: #3D0C11;
+    color: #ffffff;
+}
+.status-tag.failed,
+.ResourceStateText.unavailable {
+    color: #8F1E2A;
+}
+
+.WatchDetailPage--wrapper .details-subnav {
+    background-color: #FAF3DD;
+}
+
+.NavBarWrapper .NavItem.is-active {
+    border-bottom-color: #9B6A6C;
+}
+
+.WatchDetailPage--wrapper .details-subnav ul li.is-active a:after {
+    background-color: #9B6A6C;
+}
