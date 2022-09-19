@@ -45,12 +45,26 @@ a:visited {
 .btn.primary:not(:disabled):hover {
     background-color: #3E5935;
 }
+.btn.primary.is-disabled,
+.btn.primary.is-disabled:hover,
+.btn.primary:disabled,
+.btn.primary[disabled] {
+    background-color: #3E5935;
+    opacity: .75;
+}
 
 .btn.primary.red {
     background-color: #8F1E2A;
 }
 .btn.primary.red:not(:disabled):hover {
     background-color: #62151d;
+}
+.btn.primary.red.is-disabled,
+.btn.primary.red.is-disabled:hover,
+.btn.primary.red:disabled,
+.btn.primary.red[disabled] {
+    background-color: #8F1E2A;
+    opacity: .75;
 }
 
 .btn.secondary,
@@ -65,6 +79,18 @@ a:visited {
     border-color: #3E5935;
     color: #3E5935;
 }
+.btn.secondary.is-disabled,
+.btn.secondary.blue.is-disabled,
+.btn.secondary.is-disabled:hover,
+.btn.secondary.blue.is-disabled:hover,
+.btn.secondary:disabled,
+.btn.secondary.blue:disabled,
+.btn.secondary[disabled],
+.btn.secondary.blue[disabled] {
+    color: #3E5935;
+    border-color: #3E5935;
+    opacity: .75;
+}
 
 .btn.secondary.red {
     background-color: #ffffff;
@@ -75,6 +101,14 @@ a:visited {
     background-color: #ffffff;
     border-color: #62151d;
     color: #62151d;
+}
+.btn.secondary.red.is-disabled,
+.btn.secondary.red.is-disabled:hover,
+.btn.secondary.red:disabled,
+.btn.secondary.red[disabled] {
+    color: #62151d;
+    border-color: #62151d;
+    opacity: .75;
 }
 
 .btn.secondary.dark {
@@ -87,6 +121,21 @@ a:visited {
     border-color: #253022;
     color: #253022;
 }
+.btn.secondary.dark.is-disabled,
+.btn.secondary.dark.is-disabled:hover,
+.btn.secondary.dark:disabled,
+.btn.secondary.dark[disabled] {
+    color: #3A4B35;
+    border-color: #3A4B35;
+    opacity: .75;
+}
+
+/* Form componpontent classes */
+
+.Input:active,
+.Input:focus {
+    border-color: #9B6A6C;
+}
 
 /* Major element classes */
 
@@ -95,6 +144,10 @@ a:visited {
 .License--wrapper,
 .TableDiff--Wrapper:not(.classic) {
     background-color: #FAF3DD;
+}
+
+.GraphCard-content--wrapper {
+    background-color: #ffffff;
 }
 
 .Loader path {
@@ -106,6 +159,12 @@ a:visited {
 }
 .progressbar-meter.complete {
     background-color: #5B7553;
+}
+
+.NavBarWrapper .dropdown-nav-menu li:hover,
+.NavBarWrapper .dropdown-nav-menu li a:hover {
+    color: #9B6A6C;
+    background-color: #FAF3DD;
 }
 
 /* Additional custom classes */
