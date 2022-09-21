@@ -1,0 +1,17 @@
+apiVersion: kots.io/v1beta1
+kind: Application
+metadata:
+  name: my-application
+spec:
+  title: My application
+  icon: https://url.to/icon.png
+  branding:
+    css: |
+        body {
+            background-color: blue;
+        }
+    fonts:
+      - fontFamily: Font Family Name
+        sources:
+          - ./font-bold.woff
+          - ./font.woff
