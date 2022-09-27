@@ -12,31 +12,46 @@
 .u-textColor--bodyCopy {
     color: #9c9c9c;
 }
-.u-textColor--error,
-a.u-textColor--error {
-    color: #8F1E2A;
-}
-.u-textColor--success {
-    color: #5B7553;
-}
-.u-textColor--warning {
-    color: #DAAB18;
-}
+
 .u-linkColor,
 .replicated-link,
 .card-link,
 .link,
-a:visited {
+a:visited,
+.icomoon:not(.success-color),
+#config-render-component a {
     color: #9B6A6C;
 }
 .u-linkColor:hover,
 .replicated-link:hover,
 .card-link:hover,
 .link,
-a:visited {
+a:visited,
+.icomoon:not(.success-color):hover,
+#config-render-component a:hover {
     color: #8D4D50;
     text-decoration: none;
 }
+
+.u-textColor--error,
+a.u-textColor--error,
+.error-color,
+.icomoon.error-color,
+.checks-running-text.err {
+    color: #8F1E2A;
+}
+.u-textColor--success {
+    color: #5B7553;
+}
+.u-textColor--warning,
+.warning-color,
+.icomoon.warning-color,
+.checks-running-text.warning {
+    color: #DAAB18;
+}
+
+
+
 
 /* Button override classes */
 .btn.primary {
@@ -130,19 +145,24 @@ a:visited {
     opacity: .75;
 }
 
-/* Form componpontent classes */
+
+
+
+/* Element override classes */
 
 .Input:active,
 .Input:focus {
     border-color: #9B6A6C;
 }
 
-/* Major element classes */
-
 .dashboard-card,
 .AirgapSettings--wrapper,
 .License--wrapper,
-.TableDiff--Wrapper:not(.classic) {
+.TableDiff--Wrapper:not(.classic),
+.config-sidebar-wrapper,
+.config-items,
+.GitOpsDeploy--step,
+.Footer-wrapper {
     background-color: #FAF3DD;
 }
 
@@ -166,8 +186,6 @@ a:visited {
     color: #9B6A6C;
     background-color: #FAF3DD;
 }
-
-/* Additional custom classes */
 
 .status-tag.success,
 .ResourceStateText.ready {
